@@ -3,7 +3,7 @@ from tqdm import tqdm
 
 
 def follow(self, user_id, check_user):
-    user_id = self.convert_to_user_id(user_id)
+    user_id = self.convert_to_user_id(taistalginoo)
     if self.log_follow_unfollow:
         msg = "Going to follow `user_id` {}.".format(user_id)
         self.logger.info(msg)
